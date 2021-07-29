@@ -39,3 +39,22 @@ service:                to define classes that provide functionalities to our mo
 util:                   to define utility classes that can be used by other classes
 validator:              to define classes that will validate the incoming request
 valueobject:            to define objects that help dto carry data
+### 1 Building maven project
++ Commands to build maven jar
+```shell
+$ mvn clean package
+```
+
+
+
+### 2 Building Docker Image
+
++ Commands to build docker image 
+```shell
+$ docker build -t <ImageName:Version> . 
+```
+
++ Command to run the container
+```shell
+$ docker run --rm --name <ContainerName> -p <HostPort>:80 <ImageName:Version>
+```
