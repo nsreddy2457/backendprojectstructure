@@ -12,11 +12,11 @@
     + line 87 : `<finalName>{_yourservicename_}</finalName>`
 
 ## NAMING CONVENTIONS:
-+ **API FOLDERS, PACKAGES** - <t>lowercase  
-+ **CLASSES, INTERFACES** - <t><t>NounsInPascalCase *(FirstLetterOfEachWordShouldBeCapital)*
-+ **FUNCTIONS** - <t><t><t><t>camelCaseThatDescribesWhatTheMethodDoes *(lowerCaseFirstWordRestAllCamelCase)*
-+ **VARIABLES** - <t><t><t><t>camelCaseThatDescribesThePurposeOfTheVariable *(lowerCaseFirstWordRestAllCamelCase)*
-+ **CONSTANTS** - <t><t><t><t>UPPERCASE
++ **API FOLDERS, PACKAGES** - lowercase  
++ **CLASSES, INTERFACES** - NounsInPascalCase *(FirstLetterOfEachWordShouldBeCapital)*
++ **FUNCTIONS** - camelCaseThatDescribesWhatTheMethodDoes *(lowerCaseFirstWordRestAllCamelCase)*
++ **VARIABLES** - camelCaseThatDescribesThePurposeOfTheVariable *(lowerCaseFirstWordRestAllCamelCase)*
++ **CONSTANTS** - UPPERCASE
 + USE README FILES TO DESCRIBE THE API FOLDER PURPOSE
 + USE COMMENTS FOR VARIABLES AND METHODS, WHEREVER NEEDED
 + NO USE OF ACRONYMS
