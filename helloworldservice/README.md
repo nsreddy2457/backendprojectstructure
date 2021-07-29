@@ -1,22 +1,22 @@
 # THIS IS THE BACKEND PROJECT STRUCTURE TEMPLATE FOR PRINTING HELLO WORLD
 
-+   THE MAIN CODE IS IN `<src/main/java/com/sapient/<api service package name>/>`
-+   THE TEST CODE IS IN `<src/test/java/com/sapient/<api service package name>/>`
++   THE MAIN CODE IS IN `src/main/java/com/sapient/<api service package name>/`
++   THE TEST CODE IS IN `src/test/java/com/sapient/<api service package name>/`
 
 ## PLEASE NOTE:
 + CHANGE REQUIRED IN "src/main/resources/application.properties"
-    + line 2 : spring.datasource.username     `<DB username>`
-    + line 3 : spring.datasource.password     `<DB password>`
-    + line 1 : spring.datasource.url -        `<jdbc:postgresql://<DB Url>/<DB NAME>>`
+    + line 2 : spring.datasource.username     `DB username`
+    + line 3 : spring.datasource.password     `DB password`
+    + line 1 : spring.datasource.url -        `jdbc:postgresql://<DB Url>/<DB NAME>`
 + CHANGE FINAL NAME OF JAR FILE IN "pom.xml"
-    + line 87 : `<<finalName>{_yourservicename_}</finalName>>`
+    + line 87 : `<finalName>{_yourservicename_}</finalName>`
 
 ## NAMING CONVENTIONS:
-+ **API FOLDERS, PACKAGES** - lowercase  
-+ **CLASSES, INTERFACES** -   NounsInPascalCase *(FirstLetterOfEachWordShouldBeCapital)*
-+ **FUNCTIONS** -             camelCaseThatDescribesWhatTheMethodDoes *(lowerCaseFirstWordRestAllCamelCase)*
-+ **VARIABLES** -             camelCaseThatDescribesThePurposeOfTheVariable *(lowerCaseFirstWordRestAllCamelCase)*
-+ **CONSTANTS** -             UPPERCASE
++ **API FOLDERS, PACKAGES** - <t>lowercase  
++ **CLASSES, INTERFACES** - <t><t>NounsInPascalCase *(FirstLetterOfEachWordShouldBeCapital)*
++ **FUNCTIONS** - <t><t><t><t>camelCaseThatDescribesWhatTheMethodDoes *(lowerCaseFirstWordRestAllCamelCase)*
++ **VARIABLES** - <t><t><t><t>camelCaseThatDescribesThePurposeOfTheVariable *(lowerCaseFirstWordRestAllCamelCase)*
++ **CONSTANTS** - <t><t><t><t>UPPERCASE
 + USE README FILES TO DESCRIBE THE API FOLDER PURPOSE
 + USE COMMENTS FOR VARIABLES AND METHODS, WHEREVER NEEDED
 + NO USE OF ACRONYMS
