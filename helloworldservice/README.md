@@ -13,8 +13,8 @@ CREATE YOUR DATABASE IN POSTGRESQL, AND MENTION IN "src/main/resources/applicati
     line 1 : "spring.datasource.url=jdbc:postgresql://localhost:5432/<YOUR DB NAME>"
 CHANGE PORT NUMBER IN "src/main/resources/application.properties"
     line 9 : "server.port=<YOUR PORT NO>"
-CHANGE FINALNAME OF JAR FILE IN pom.xml
-    line 87 : "```xml <finalName>{yourservicename}</finalName> ```"
+CHANGE FINALNAME OF JAR FILE IN "pom.xml"
+    line 87 : "<finalName>{_yourservicename_}</finalName>"
 
 NAMING CONVENTIONS:
 API FOLDERS, PACKAGES - lowercase  
