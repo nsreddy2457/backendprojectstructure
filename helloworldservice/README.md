@@ -2,7 +2,7 @@ THIS IS THE BACKEND PROJECT STRUCTURE TEMPLATE FOR PRINTING HELLO WORLD
 
 THE MAIN CODE IS IN "src/main/java/com/sapient/helloworldservice/" - CHANGE
 THE TEST CODE IS IN "src/test/java/com/sapient/helloworldservice/" - CHANGE
-"hellowworldservice" IS SAME AS THE SERVICE API PROJECT NAME, IN WHICH IT IS CONTAINED
+"helloworldservice" IS SAME AS THE SERVICE API PROJECT NAME, IN WHICH IT IS CONTAINED
 
 PLEASE NOTE:
 CHANGE REQUIRED IN "src/main/resources/application.properties"
