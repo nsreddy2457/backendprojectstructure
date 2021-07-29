@@ -1,0 +1,52 @@
+pipeline{
+    agent any
+    
+    stages{
+    	stage('Build'){
+    		steps{
+                echo "Starting Build stage"
+                // script{
+                //     def mvnHome = tool 'mvn'
+                //     bat "${mvnHome}/bin/mvn clean package"
+                // }
+            }
+            post{
+                success{
+                    echo "Build completed"
+                }
+            }
+    	}
+    	
+        
+        stage('Sonar Coverage Analysis'){
+            steps{
+                echo("Starting Sonar Coverage Analysis")
+            }
+            post{
+                success{
+                    echo "Sonar Coverage Analysis completed"
+                }
+            }
+        }
+        
+        
+        stage('Docker Image'){
+            steps{
+                echo "Creating Docker Image"
+            }
+            post{
+                success{
+                    echo "Docker Image Created"
+                }
+            }
+        }
+        
+        
+        // stage('Acceptance Pipeline Trigger'){
+        //     steps{
+        //         echo "Triggering Acceptance Pipeline"
+        //         build job: "AcceptancePipelineDemo", wait: false
+        //     }
+        // }
+    }
+}
