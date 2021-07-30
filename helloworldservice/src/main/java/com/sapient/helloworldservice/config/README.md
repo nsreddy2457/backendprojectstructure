@@ -1,6 +1,6 @@
 ## NOT NEEDED IN THE ACTUAL PROJECT STRUCTURE <br />EMPTY FOLDERS CAN'T BE PUSHED TO GIT/BITBUCKET, SO THIS FILE HAS BEEN INCLUDED
 
-+ service: to define classes that provide functionalities to our models
++ config: to define custom configurations
 
 ## NAMING CONVENTIONS:
 + **API FOLDERS, PACKAGES** - lowercase  

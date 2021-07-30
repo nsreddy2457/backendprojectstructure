@@ -19,12 +19,12 @@
 + **CONSTANTS** - UPPERCASE
 + USE README FILES TO DESCRIBE THE API FOLDER PURPOSE
 + USE COMMENTS FOR VARIABLES AND METHODS, WHEREVER NEEDED
-+ NO USE OF ACRONYMS
 + ALL NAMES SHOULD CONVEY THE PURPOSE
 
 ## FOLDER STRUCTURE:
 + **advice:**       to support cross-cutting concerns, such as logging, profiling, etc
 + **annotation:**   to define custom annotation
++ **config:**       to define custom configurations
 + **controller:**   to process incoming REST API requests
 + **dto:**          to carry data from controller to services (dto: data transfer object)
 + **exception:**    to define custom exception
