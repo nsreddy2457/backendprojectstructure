@@ -35,7 +35,9 @@ pipeline{
         stage('Docker Image'){
             steps{
                 echo "Creating Docker Image"
-                sh "docker build -t helloworldservice:1.0 ."
+                dir("helloworldservice"){
+                    sh "docker build -t helloworldservice:1.0 ."
+                }
             }
             post{
                 success{
