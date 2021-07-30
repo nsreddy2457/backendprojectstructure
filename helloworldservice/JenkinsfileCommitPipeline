@@ -5,10 +5,10 @@ pipeline{
     	stage('Build'){
     		steps{
                 echo "Starting Build stage"
-                // script{
-                //     def mvnHome = tool 'mvn'
-                //     bat "${mvnHome}/bin/mvn clean package"
-                // }
+                 script{
+                     def mvnHome = tool 'mvn'
+                     bat "${mvnHome}/bin/mvn clean package"
+                 }
             }
             post{
                 success{
@@ -33,6 +33,7 @@ pipeline{
         stage('Docker Image'){
             steps{
                 echo "Creating Docker Image"
+                sh "docker build -t helloWorldService:1.0 ."
             }
             post{
                 success{
