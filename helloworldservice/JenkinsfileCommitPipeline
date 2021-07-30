@@ -7,7 +7,7 @@ pipeline{
                 echo "Starting Build stage"
                  script{
                      def mvnHome = tool 'mvn'
-                     bat "${mvnHome}/bin/mvn clean package"
+                     sh "${mvnHome}/bin/mvn clean package"
                  }
             }
             post{
