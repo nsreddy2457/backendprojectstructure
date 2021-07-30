@@ -7,11 +7,9 @@ pipeline{
                 echo "Starting Build stage"
                  script{
                      dir ("helloworldservice"){
-                        sh "pwd"
+                         def mvnHome = tool 'mvn'
+                         sh "${mvnHome}/bin/mvn clean package"
                      }
-                     sh "ls"
-                     def mvnHome = tool 'mvn'
-                     sh "${mvnHome}/bin/mvn clean package"
                  }
             }
             post{
